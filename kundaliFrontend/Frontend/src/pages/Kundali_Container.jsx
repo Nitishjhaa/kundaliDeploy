@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 import Basic_Information from '../components/Basic_Information';
 import KundaliChart from '../components/VedikKundali';
 import InfoOfKundali from '../components/InfoOfKundali';
-import ChandraKundaliChart from '../components/chandraKundali';
+import ChandraKundaliChart from '../components/ChandraKundali';
 import NavmanshKundali from '../components/NavmanshKundli'
 import SunKundaliChart from '../components/SunKundali';
 import Mahadasha from './Mahadasha';
