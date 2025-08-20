@@ -1,0 +1,121 @@
+if(sunHouse===5 && rahuHouse === 5) {
+    pitr dosh ke karan santaan sukh me kami ya santaan hote sayam dikkat(opration aadi krna)
+}
+
+if(moonHouse===4 && venusHouse===10) {
+    माता और स्त्री दोनों से सहायता प्राप्त हो।
+}
+
+if(moonHouse===4 && mercuryHouse===10) {
+     विदेश गमन से विशेष लाभ होता है।
+}
+
+if(moonHouse===7) {
+    जातक दूध या पानी विक्रय व्यापार करे तो पुत्र सन्तति के सुख में बाधाकारक होगा।
+    जब तक जातक पढ़ता रहेगा, तब तक विवाह में बाधा आती है। 
+    24 वर्ष की आयु से पहले विवाह न करें।
+}
+
+if(moonHouse === 3) {
+    budh grah bhi kharab hoga
+}
+
+if(moonHouse === 11) {
+    santaan prapti me aayegi dikkat
+}
+
+if(marsHouse===4) {
+    bjli sambandit karyo me laabh
+}
+
+if(marsHouse===9) {
+    education me dikkat aane ka yog hoga
+}
+
+if(marcuryHouse === 3 ) {
+    south face house me rahne se dikkat
+}
+
+if(mercuryHouse === 6) {
+    uttar disa me kisi ki saadi na kre ,(vahan.bua,beti) aadi
+}
+
+if(marsHouse === 6 && mercuryHouse === 6) {
+    mansik aasanti deta h
+}
+
+if(marcuryHouse === 6 ) {
+    north face house me rahne se dikkat
+}
+if(marcuryHouse === 12 ) {
+    vyabsaay me dikkat aati h and tarakki nhi hoti
+}
+
+if(jupiterHouse === 9) {
+    jyada dikhawa na kre, 
+}
+
+if(venusHouse === 3 moonHouse === 9 && venusHouse === 3 rahuHouse === 9 ) {
+    upaaay of rahu and moon if either of them is present
+}
+
+if(venusHouse === 4 ) {
+    if having tourble in having child do remedies of moon
+}
+
+if(saturnHouse === 1) {
+    kisi bhi kaary ko jisme aapko paragti hone waali ko use doosre vykti ko na vtaye
+}
+
+if(saturnHouse === 5) {
+    share vazaar me dhan na lagaye
+}
+
+if(saturnHouse === 6) {
+    for bussigness do upaay of budh
+}
+
+
+'मेष' लग्न में 'शनि'
+
+'मेष' लग्न की कुण्डली के 'प्रथमभाव' स्थित 'शनि' का फलादेश 
+पहले भाव में शत्रु मंगल की राशि पर स्थित शनि के प्रभाव से 
+
+मेष लग्न की कुंडली के दूसरे भाव में शनि की स्थिति
+दूसरे भाव में मित्र शुक्र की राशि पर स्थित शनि के प्रभाव से 
+
+मेष लग्न की कुंडली के तीसरे भाव में शनि की स्थिति
+
+तीसरे भाव में मित्र बुध की राशि पर स्थित दशमेश तथा एकादशेश शनि के प्रभाव से 
+
+मेष लग्न की कुंडली के चतुर्थ भाव में शनि की स्थिति
+
+नीचदृष्टि से लग्न को देखने के कारण 
+
+मेष' लग्न की कुण्डली के 'पंचमभाव' स्थित 'शनि' का फलादेश
+
+पाँचवें भाव में शत्रु सूर्य की राशि पर स्थित त्रिकोणस्थ शनि के प्रभाव से 
+
+मेष' लग्न की कुण्डली के 'षष्ठभाव' स्थित 'शनि' का फलादेश
+छठे भाव में मित्र बुध की राशि पर स्थित दशमेश तथा एकादशेश शनि के प्रभाव से 
+
+'मेष' लग्न की कुण्डली के 'सप्तमभाव' स्थित 'शनि' का फलादेश
+सातवें भाव में मित्र शुक्र की राशि पर स्थित दशमेश तथा एकादशेश शनि के प्रभाव से 
+
+'मेष' लग्न की कुण्डली के 'अष्टमभाव' स्थित 'शनि' का फलादेश
+आठवें भाव में शत्रु मंगल की राशि पर स्थित एकादशेश शनि के प्रभाव से 
+
+'मेष' लग्न की कुण्डली के 'नवमभाव' स्थित 'शनि' का फलादेश
+नवेंभाव में शत्रु गुरु की राशि में स्थित शनि के प्रभाव से 
+
+'मेष' लग्न की कुण्डली के 'दशमभाव' स्थित 'शनि' का फलादेश
+
+दसवें भाव में स्वराशिस्थ शनि के प्रभाव से 
+
+मेष' लग्न की कुण्डली के 'एकादशभाव' स्थित 'शनि' का फलादेश ग्यारहवें भाव में स्वराशि स्थित दशमेश शनि के
+
+प्रभाव से 
+
+'मेष' लग्न की कुण्डली के 'द्वादशभाव' स्थित 'शनि' का फलादेश
+बारहवें भाव में शत्रु गुरु की राशि पर स्थित शनि के प्रभाव से 
+

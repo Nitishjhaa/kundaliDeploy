@@ -1,0 +1,146 @@
+const Lagan = require('./models/Lagan')
+
+
+{
+  "nameOfLagan": "मेष",
+  "numberOfLagan": 1,
+  "ashubh": "शनि,बुध,शुक्र,गुरु",
+  "subh": "गुरु,सूर्य",
+  "maarak": "शुक्र",
+  "raajyogKarak": "सूर्य,गुरु,चंद्र",
+  "parampaapi": "बुध",
+  "ghaatak": "शनि"
+},
+  
+{ 
+    "nameOfLagan": "वृषभ", 
+    "numberOfLagan": 2, 
+    "ashubh": "गुरु,शुक्र,चंद्र,शनि,बुध", 
+    "subh": "सूर्य", 
+    "raajyogKarak": "शनि", 
+    "maarak": "गुरु", 
+    "parampaapi": "गुरु,चंद्र", 
+    "ghaatak": "" 
+},
+  
+{ 
+    "nameOfLagan": "मिथुन", 
+    "numberOfLagan": 3, 
+    "ashubh": "मंगल,शुक्र", 
+    "subh": "बुध,शनि", 
+    "raajyogKarak": "बुध,शुक्र", 
+    "maarak": "शनि", 
+    "parampaapi": "मंगल", 
+    "ghaatak": "" 
+}
+  
+{ 
+    "nameOfLagan": "कर्क", 
+    "numberOfLagan": 4, 
+    "ashubh": "शुक्र,बुध,शनि", 
+    "subh": "सूर्य,गुरु", 
+    "raajyogKarak": "मंगल", 
+    "maarak": "सूर्य,शुक्र(सहायक)", 
+    "parampaapi": "गुरु(लेकिन योग कारक)", 
+    "ghaatak": "" 
+},
+  
+{ 
+    "nameOfLagan": "सिंह", 
+    "numberOfLagan": 5, 
+    "ashubh": "चंद्र", 
+    "subh": "सूर्य,मंगल", 
+    "raajyogKarak": "मंगल,गुरु", 
+    "maarak": "बुध,शनि", 
+    "parampaapi": "बुध,शनि", 
+    "ghaatak": "" 
+},
+  
+{ 
+    "nameOfLagan": "कन्या", 
+    "numberOfLagan": 6, 
+    "ashubh": "मंगल,शुक्र,चंद्र", 
+    "subh": "शुक्र", 
+    "raajyogKarak": "गुरु,शुक्र", 
+    "maarak": "सूर्य,मंगल(सहायक)", 
+    "parampaapi": "", 
+    "ghaatak": "" 
+},
+  
+{ 
+    "nameOfLagan": "तुला", 
+    "numberOfLagan": 7, 
+    "ashubh": "सूर्य,गुरु,मंगल", 
+    "subh": "बुध,शनि", 
+    "raajyogKarak": "चंद्र,बुध", 
+    "maarak": "मंगल", 
+    "parampaapi": "सूर्य,गुरु,शुक्र", 
+    "ghaatak": "" 
+},
+  
+{ 
+    "nameOfLagan": "वृश्चिक", 
+    "numberOfLagan": 8, 
+    "ashubh": "मंगल,बुध,शनि", 
+    "subh": "गुरु", 
+    "raajyogKarak": "सूर्य,चंद्र,गुरु,मंगल स्वगृही हो तो राजयोगकारक", 
+    "maarak": "शुक्र,बुध", 
+    "parampaapi": "शुक्र", 
+    "ghaatak": "" 
+},
+  
+{ 
+    "nameOfLagan": "धनु", 
+    "numberOfLagan": 9, 
+    "ashubh": "शनि,चंद्र,शुक्र", 
+    "subh": "सूर्य,बुध,गुरु,मंगल", 
+    "raajyogKarak": "गुरु,सूर्य+बुध", 
+    "maarak": "शुक्र,बुध(सहायक)", 
+    "parampaapi": "शनि,चंद्र", 
+    "ghaatak": "" 
+},
+  
+{ 
+    "nameOfLagan": "मकर", 
+    "numberOfLagan": 10, 
+    "ashubh": "चंद्र,गुरु,मंगल", 
+    "subh": "शुक्र,बुध", 
+    "raajyogKarak": "शुक्र,बुध", 
+    "maarak": "चंद्र(सहायक),मंगल", 
+    "parampaapi": "सूर्य,गुरु", 
+    "ghaatak": "" 
+},
+  
+{ 
+    "nameOfLagan": "कुंभ", 
+    "numberOfLagan": 11,
+    "ashubh": "चंद्र,गुरु,मंगल", 
+    "subh": "शुक्र", 
+    "raajyogKarak": "मंगल,शुक्र", 
+    "maarak": "सूर्य", 
+    "parampaapi": "चंद्र", 
+    "ghaatak": "गुरु" 
+},
+  
+{ 
+    "nameOfLagan": "मीन", 
+    "numberOfLagan": 12,
+    "ashubh": "सूर्य,शनि,शुक्र,बुध", 
+    "subh": "चंद्र,मंगल", 
+    "raajyogKarak": "चंद्र,गुरु", 
+    "maarak": "शनि(सहायक),बुध", 
+    "parampaapi": "सूर्य,शनि,शुक्र", 
+    "ghaatak": "" 
+}
+
+
+
+app.post("/add-lagan", async (req, res) => {
+  try {
+    const newLagan = new Lagan(req.body);
+    await newLagan.save();
+    res.status(201).json({ message: "Lagan data saved successfully", newLagan });
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+});

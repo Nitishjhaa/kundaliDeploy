@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "astronomia": "^4.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "luxon": "^3.6.0",
+    "mhah-panchang": "^1.2.0",
+    "moment-timezone": "^0.5.47",
+    "mongoose": "^8.10.1",
+    "puppeteer": "^24.9.0",
+    "swisseph": "^0.5.17",
+    "world-cities-json": "^1.0.1"
+  }
+}

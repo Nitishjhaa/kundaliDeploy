@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+.button {
+  height: 50px;
+  width: 200px;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid #252525;
+  overflow: hidden;
+  color: #333;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-txt {
+  z-index: 1;
+  letter-spacing: 4px;
+}
+
+.type1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  background-color: #333;
+  border-radius: 30px;
+  visibility: hidden;
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+}
+
+.button:hover {
+  color: #fff;
+  border: none;
+}
+
+.type1:hover::after {
+  visibility: visible;
+  transform: scale(100) translateX(2px);
+}
+
+:root {
+  --midnight-black: #000000;
+  --deep-purple: #301934;
+  --dark-teal: #014D4E;
+  --charcoal-gray: #36454F;
+  --wine-red: #800020;
+}
+
+.bg-midnight-black {
+  background-color: var(--midnight-black);
+}
+
+.bg-deep-purple {
+  background-color: var(--deep-purple);
+}
+
+.bg-dark-teal {
+  background-color: var(--dark-teal);
+}
+
+.bg-charcoal-gray {
+  background-color: var(--charcoal-gray);
+}
+
+.bg-wine-red {
+  background-color: var(--wine-red);
+}
+
+.text-midnight-black {
+  color: var(--midnight-black);
+}
+
+.text-deep-purple {
+  color: var(--deep-purple);
+}
+
+.text-dark-teal {
+  color: var(--dark-teal);
+}
+
+.text-charcoal-gray {
+  color: var(--charcoal-gray);
+}
+
+.text-wine-red {
+  color: var(--wine-red);
+}
