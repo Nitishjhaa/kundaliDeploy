@@ -249,7 +249,7 @@ const kundaliResponce = async (req, res) => {
       ascZodiacName,
       ascZodiacNumber,
       results: planetResults
-    } = await calculateAllWithAnsh(birthDate, birthTime, timeZone, lat, lon);
+    } = await calculateAllWithAnsh( birthDate, birthTime, timeZone, lat, lon);
 
     // derive placements & many dependent values as before (using sidereal values)
     const sunSid = planetResults.Sun.sidereal;

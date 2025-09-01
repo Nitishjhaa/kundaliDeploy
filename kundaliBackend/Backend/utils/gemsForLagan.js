@@ -15,6 +15,11 @@ const planetsAndTheirJewel = {
 
 // Main function to determine gems based on ascendant (Lagna)
 function gemForLagan(ascZodiacNumber) {
+
+    ascZodiacNumber = ascZodiacNumber + 1
+
+    console.log(ascZodiacNumber)
+
     let planetRecommendations = {
         luck: "",
         debt: "",
