@@ -16,9 +16,6 @@ const planetsAndTheirJewel = {
 // Main function to determine gems based on ascendant (Lagna)
 function gemForLagan(ascZodiacNumber) {
 
-    ascZodiacNumber = ascZodiacNumber + 1
-
-    console.log(ascZodiacNumber)
 
     let planetRecommendations = {
         luck: "",
@@ -40,7 +37,7 @@ function gemForLagan(ascZodiacNumber) {
     };
 
     switch (ascZodiacNumber) {
-        case 1:
+        case 0:
             // Aries (Mesha Lagna)
             planetRecommendations.children = "Sun";
             planetRecommendations.health = "Mars";
@@ -57,7 +54,7 @@ function gemForLagan(ascZodiacNumber) {
 
             break;
 
-        case 2:
+        case 1:
             // Taurus (Vrishabha Lagna)
             planetRecommendations.children = "";
             planetRecommendations.health = "Moon";
@@ -74,7 +71,7 @@ function gemForLagan(ascZodiacNumber) {
 
             break;
 
-        case 3:
+        case 2:
             // Gemini (Mithuna Lagna)
             planetRecommendations.mentalPeace = "Moon",
             planetRecommendations.children = "";
@@ -92,7 +89,7 @@ function gemForLagan(ascZodiacNumber) {
             planetRecommendations.fatherHealth = "Mercury";
             break;
 
-        case 4:
+        case 3:
             // Cancer (Karka Lagna)
             planetRecommendations.mentalPeace = "",
             planetRecommendations.children = "Venus";
@@ -110,7 +107,7 @@ function gemForLagan(ascZodiacNumber) {
             planetRecommendations.fatherHealth = "Mars";
             break;
 
-        case 5:
+        case 4:
             // Leo (Singha Lagna)
             planetRecommendations.mentalPeace = "Mars",
             planetRecommendations.children = "Jupiter";
@@ -128,7 +125,7 @@ function gemForLagan(ascZodiacNumber) {
             planetRecommendations.fatherHealth = "Mars";
             break;
 
-        case 6:
+        case 5:
             // Virgo (Kanya Lagna)
             planetRecommendations.mentalPeace = "Jupiter",
             planetRecommendations.children = "Saturn";
@@ -146,7 +143,7 @@ function gemForLagan(ascZodiacNumber) {
             planetRecommendations.fatherHealth = "";
             break;
 
-        case 7:
+        case 6:
             // Libra (Tula Lagna)
             planetRecommendations.mentalPeace = "Moon",
             planetRecommendations.children = "";
@@ -164,7 +161,7 @@ function gemForLagan(ascZodiacNumber) {
             planetRecommendations.fatherHealth = "";
             break;
 
-        case 8:
+        case 7:
             // Scorpio (Vrischika Lagna)
             planetRecommendations.mentalPeace = "Moon",
             planetRecommendations.children = "";
@@ -182,7 +179,7 @@ function gemForLagan(ascZodiacNumber) {
             planetRecommendations.fatherHealth = "Moon";
             break;
 
-        case 9:
+        case 8:
             // Sagittarius (Dhanu Lagna)
             planetRecommendations.mentalPeace = "Moon",
             planetRecommendations.children = "";
@@ -200,7 +197,7 @@ function gemForLagan(ascZodiacNumber) {
             planetRecommendations.fatherHealth = "";
             break;
 
-        case 10:
+        case 9:
             // Capricorn (Makara Lagna)
             planetRecommendations.mentalPeace = "Moon",
             planetRecommendations.children = "";
@@ -218,7 +215,7 @@ function gemForLagan(ascZodiacNumber) {
             planetRecommendations.fatherHealth = "";
             break;
 
-        case 11:
+        case 10:
             // Aquarius (Kumbha Lagna)
             planetRecommendations.mentalPeace = "",
             planetRecommendations.children = "Saturn";
@@ -237,7 +234,7 @@ function gemForLagan(ascZodiacNumber) {
             
             break;
 
-        case 12:
+        case 11:
             // Pisces (Meena Lagna)
             planetRecommendations.mentalPeace = "Mercury",
             planetRecommendations.children = "Moon";
