@@ -84,9 +84,9 @@ function analyzeAscendantAndPlanets({
     ];
 
     const rashiTattvas = {
-        1: "Fire / अग्नि", 2: "Earth / पृथ्वी", 3: "Wind / वायु", 4: "Water / जल",
-        5: "Fire / अग्नि", 6: "Earth / पृथ्वी", 7: "Wind / वायु", 8: "Water / जल",
-        9: "Fire / अग्नि", 10: "Earth / पृथ्वी", 11: "Wind / वायु", 12: "Water / जल"
+        0: "Fire / अग्नि", 1: "Earth / पृथ्वी", 2: "Wind / वायु", 3: "Water / जल",
+        4: "Fire / अग्नि", 5: "Earth / पृथ्वी", 6: "Wind / वायु", 7: "Water / जल",
+        8: "Fire / अग्नि", 9: "Earth / पृथ्वी", 10: "Wind / वायु", 11: "Water / जल"
     };
 
     const planetTattvas = {
